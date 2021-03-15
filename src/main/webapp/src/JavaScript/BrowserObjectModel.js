@@ -22,20 +22,6 @@ function f() {
  *      confirm()：简单的提示对话框，但可以选择确认与取消
  *      prompt():弹出提示对话框，可以接受用户输入的信息
  * */
-// var user = prompt("请输入你的用户名：");
-// if (!!user) {
-//     var ok = confirm("你输入的姓名为：\n" + user + "\n请确认。");
-//     if (ok) {
-//         alert("欢迎您\n" + user);
-//     }
-//     else {
-//         user = prompt("请输入您的用户名：X2");
-//         alert("欢迎您\n" + user);
-//     }
-// }
-// else {
-//     user = prompt("请输入您的用户名：X2");
-// }
 
 
 /**
