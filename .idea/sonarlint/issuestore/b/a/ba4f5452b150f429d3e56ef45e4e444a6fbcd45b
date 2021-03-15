@@ -1,0 +1,11 @@
+
+{
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8•›„Çþ.
+=
+java:S2129" Remove this "String" constructor(Ú©ë›8•›„Çþ.
+E
+java:S1148%"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ŸÀ…¬ü.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ô³¦ãúÿÿÿÿ8ŸÀ…¬ü.
+]	java:S125#"<This block of commented-out lines of code should be removed.(µ·§ºùÿÿÿÿ8³ü¸¬ü.
+L
+java:S2201"/The return value of "toCharArray" must be used.(ö—íÑ8šÞ†Çþ.

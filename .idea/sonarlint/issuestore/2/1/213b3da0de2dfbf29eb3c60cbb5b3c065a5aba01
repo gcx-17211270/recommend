@@ -1,0 +1,16 @@
+
+E
+java:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ò„ı«ü.
+‚
+java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(éöõ¦ùÿÿÿÿ8Ò„ı«ü.
+x
+java:S1989'"VHandle the following exception that could be thrown by "getOutputStream": IOException.(€¥àúÿÿÿÿ8Ò„ı«ü.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ÿÉÓ‡ùÿÿÿÿ8Ò„ı«ü.
+d
+java:S2095*"GUse try-with-resources or close this "Statement" in a "finally" clause.(Êë‹8Ò„ı«ü.
+E
+java:S1148K"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ò„ı«ü.
+d
+java:S2259I"BA "NullPointerException" could be thrown; "conn" is nullable here.(…¤© ÿÿÿÿÿ8Ò„ı«ü.
+E
+java:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ò„ı«ü.

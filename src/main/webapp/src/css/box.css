@@ -1,0 +1,41 @@
+/*      公共属性
+---------------------------------------------------------- */
+html {min-width : 100%; }
+body { margin: 0px; padding : 0px; border: 0px; color: #000; font-size: 14px; line-height: 160%; text-align:center; background : #DDDDDD; font-family: "宋体", "新宋体", Arial, Verdana, sans-serif;}
+/*      顶部布局
+---------------------------------------------------------- */
+#top { width: 100%; height:30px; margin-right:auto; margin-left:auto; padding:0px; background:grey;
+    /*background:url("../img/ride.gif") #fff repeat-x left top;background-size:64px 40px;*/
+}
+#topLeft {width:50%; height:30px; text-align:left; background:grey; font-size:20px; color:#FFDDFF; float:left;}
+#topRight {width:50%; height:30px; text-align:right; background:grey; font-size:15px; float:right;}
+#top1 {width:100%; margin-right:auto; margin-left:auto; margin-bottom:auto; padding:0px; height:110px; }
+/*      主体布局
+---------------------------------------------------------- */
+#main {width:100%; height: 830px; margin-right:auto; margin-left:auto; padding:1.2em 0px;background:darkgray;}
+#content {width:95%; height: 800px; margin-right:auto; margin-left:auto; padding:1em; background:#fff;}
+/*大标题*/
+#title {font-weight:bold; margin: 0px 0px 0.5em 0px; padding:0.5em 0px 0.5em 1em; font-size:24px; color: #00A06B; text-align:left; border-bottom:solid #9EA3C1 2px;}
+.sub {font-weight:bold; margin:0px 0px 0.5em 0px; padding:0.5em 0px 0.5em 1em; font-size:13px; color:#00A06B; text-align:left;}
+#search {magin:auto;}
+/*      底部布局
+---------------------------------------------------------- */
+#recommend {width:90%; height:640px; margin-right:auto; margin-left:auto; padding:1em; }
+#smallBoxLeft {width:50%; font-size:10px; float:left; text-align:left;}
+#smallBoxRight {width:50%; font-size:10px; float:right; text-align:right;}
+#smallBoxLeft2{width:50%; font-size:10px; float:left; text-align:left;}
+#smallBoxRight2{width:50%; font-size:10px; float:right; text-align:right;}
+/*推荐内容区间*/
+#Recommend1 {width:90%; height:210px; border-style:dashed; text-align:center; }
+#Recommend2 {width:90%; height:210px; border-style:dotted; text-align:center; }
+#Result {width:90%; height:100px; border-style:dotted; text-align:center; margin-top:20px;}
+
+input.search {                                /*搜索框*/
+    width: 500px; height: 36px;cursor:pointer;border-radius: 10px 0 0 10px; margin: 0;
+    align:center;
+}
+input.submit {                                /*提交框*/
+    width: 100px;height: 40px;cursor:pointer; border-radius: 0 10px 10px 0;border:none;
+}
+
+#footer {position:absolute; height: 50px; width: 100%; display: block; margin-top: 50px; margin-left: 30px; bottom:0px;}

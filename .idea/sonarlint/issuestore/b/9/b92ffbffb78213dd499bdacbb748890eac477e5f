@@ -1,0 +1,14 @@
+
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¸©åÀùÿÿÿÿ8ì€ÿ«ü.
+‚
+java:S1989'"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(Í†»Öúÿÿÿÿ8ì€ÿ«ü.
+]	java:S125 "<This block of commented-out lines of code should be removed.(œÒñˆüÿÿÿÿ8ì€ÿ«ü.
+E
+java:S1185&"(Remove this method to simply inherit it.(üª¼í8ì€ÿ«ü.
+‚
+java:S1989"`Handle the following exception that could be thrown by "getBytes": UnsupportedEncodingException.(¸©åÀùÿÿÿÿ8ì€ÿ«ü.
+n
+java:S1989"LHandle the following exception that could be thrown by "write": IOException.(çÛ÷Þüÿÿÿÿ8ì€ÿ«ü.
+x
+java:S1989"VHandle the following exception that could be thrown by "getOutputStream": IOException.(™ë÷¨üÿÿÿÿ8ì€ÿ«ü.

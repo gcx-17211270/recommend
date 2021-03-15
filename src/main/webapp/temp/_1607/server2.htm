@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务器端响应页面</title>
+    <script>
+        window.onload = function() {
+            var q = location.search.substring(1);       //删除问号
+            var a = q.split("&");
+            var o = {};
+            for (var i = 0; i < a.length; i++) {
+                var n = a[i].indexOf("=");
+                if (n == -1) continue;
+                var name = a[i].substring(0, n);
+                var value = a[i].substring(n + 1);
+                o[name] = unescape(value);
+            }
+            var n, b;
+            ((o["user"]) && o["user"] == "admin") ? (n = o["user"]) : (n = "null");
+            ((o["pass"]) && o["pass"] == "123456") ? (n = o["pass"]) : (n = "null");
+            parent.frames[0].callback(n, b);
+        }
+    </script>
+</head>
+<body>
+    <h1>服务器端响应与处理</h1>
+</body>
+</html>

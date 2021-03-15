@@ -1,0 +1,14 @@
+/*清除常用元素的边界、补白、边框默认样式*/
+p, h1, form, button {border:0; margin:0; padding:0;}
+
+.myform {margin:0 auto; width:400px; padding:14px;}
+
+#stylized {border:solid 2px #b7ddf2; background:#ebf4fb;}
+#stylized p {font-size:11px; color:#666666; margin-bottom:20px; padding-bottom:10px;border-bottom:solid 1px #b7ddf2;}
+#stylized label {display:block; width:140px; font-weight:bold; text-align:right; float:left;}
+#stylized .small {color:#666666; font-size:11px; font-weight:normal; text-align:right; display:block;width:140px;}
+#stylized input {float:left; font-size:12px; padding:4px 2px; margin:2px 0 20px 10px; border:solid 1px #aacfe4; width:200px; }
+#stylized button {clear:both; margin-left:auto; width:125px; height:31px; background:#666677; text-align:center; line-height:31px; color:#FFFFFF; font-size:11px;}
+/*强制换行显示*/
+.spacer {clear:both; height:1px;}
+/*表单样式*/

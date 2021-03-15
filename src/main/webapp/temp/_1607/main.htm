@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>与客户交互页面</title>
+    <script>
+        //请求函数，加载服务器端页面
+        function request() {
+            parent.frames[1].location.href = "server.htm";
+        }
+        //一个更复杂的请求函数(向服务器端发送请求的异步请求函数)
+        function request2() {
+            var user = document.getElementById("user");
+            var pass = document.getElementById("pass");
+            //构造查询字符串
+            var s = "user="+user.value + "&pass=" + pass.value;
+            parent.frames[1].location.href = "server2.htm?" + s;
+        }
+        //异步交互的回调函数
+        function callback(b, n) {
+            document.write(b);
+            if (b) {
+                var e = document.getElementsByTagName("body")[0];
+                e.innerHTML = "<h1>"+n+"</h1><p>您好，欢迎登录站点</p>"
+            }
+            else{
+                alert("您输入的用户名有误");
+                var user = document.getElementById("user");
+                var pass = document.getElementById("pass");
+                user.value = "";
+                pass.value = "";
+            }
+        }
+        //页面加载完毕，为按钮绑定事件处理函数
+        window.onload = function() {
+            var b = document.getElementsByTagName("input")[0];
+            b.onclick = request;
+
+            var b = document.getElementById("submit2");
+            b.onclick = request2;
+        }
+    </script>
+</head>
+<body>
+    <h1>与用户交互页面</h1>
+    <input name="submit" type="button" id="submit" value="向服务器发出请求"><br>
+
+    <input name="" id="user" type="text"><br>
+    <input name="" id="pass" type="password"><br>
+    <input name="" id="submit2" type="button" value="提交"><br>
+</body>
+</html>

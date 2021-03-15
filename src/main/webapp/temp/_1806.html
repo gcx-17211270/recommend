@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*<!--对话框外框样式-->*/
+        .dialog {width=300px; height=200px; margin:auto; box-shadow:2px 2px 4px #ccc; background-color:#f1f1f1;border:solid 1px #aaa;}
+        /*对话框标题栏样式*/
+        .dialog .title {font-size:16px; font-weight:bold; color:#fff; padding:6px;background-color:#404040;}
+        /*关闭按钮样式*/
+        .dialog .close {width:20px; height:20px; margin:3px; float:right;cursor:pointer;color:#fff;}
+    </style>
+</head>
+<body>
+    <h1>这是要设计一个弹出对话框</h1>
+    <input type="button" value="打开对话框" onclick="openDialog();">
+    <div id="dlgTest" class="dialog"> <span class="close">$times;</span></div>
+        <div class="title">对话框标题栏</div>
+        <div class="content">对话框内容</div>
+
+    <script>
+        function Dialog(id) {
+
+        }
+        function openDialog() {
+
+            var dlg = new Dialog("dlgTest");
+            dlg.show;
+        }
+    </script>
+</body>
+</html>

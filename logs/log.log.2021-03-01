@@ -1,0 +1,239 @@
+2021-03-01 10:36:55  [ http-nio-8080-exec-7:48174792 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@a72f260
+2021-03-01 10:36:55  [ http-nio-8080-exec-7:48174800 ] - [ INFO ]  Connection established in 714 ms.
+2021-03-01 10:38:14  [ http-nio-8080-exec-8:48253731 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@480db340
+2021-03-01 10:38:14  [ http-nio-8080-exec-8:48253733 ] - [ INFO ]  Connection established in 272 ms.
+2021-03-01 10:38:23  [ http-nio-8080-exec-9:48263176 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@1d58bad3
+2021-03-01 10:38:23  [ http-nio-8080-exec-9:48263177 ] - [ INFO ]  Connection established in 61 ms.
+2021-03-01 10:38:48  [ http-nio-8080-exec-4:48287789 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@24a5db1
+2021-03-01 10:38:48  [ http-nio-8080-exec-4:48287790 ] - [ INFO ]  Connection established in 63 ms.
+2021-03-01 10:40:48  [ http-nio-8080-exec-3:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@7636d5e
+2021-03-01 10:40:48  [ http-nio-8080-exec-3:8 ] - [ INFO ]  Connection established in 1435 ms.
+2021-03-01 10:40:52  [ http-nio-8080-exec-6:3429 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@63e23cc8
+2021-03-01 10:40:52  [ http-nio-8080-exec-6:3431 ] - [ INFO ]  Connection established in 50 ms.
+2021-03-01 10:40:57  [ http-nio-8080-exec-2:8471 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@405d4223
+2021-03-01 10:40:57  [ http-nio-8080-exec-2:8472 ] - [ INFO ]  Connection established in 36 ms.
+2021-03-01 10:41:00  [ http-nio-8080-exec-3:11332 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@d6915e6
+2021-03-01 10:41:00  [ http-nio-8080-exec-3:11333 ] - [ INFO ]  Connection established in 37 ms.
+2021-03-01 10:41:46  [ http-nio-8080-exec-5:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@23acd69a
+2021-03-01 10:41:46  [ http-nio-8080-exec-5:7 ] - [ INFO ]  Connection established in 1016 ms.
+2021-03-01 10:41:57  [ http-nio-8080-exec-8:11199 ] - [ INFO ]  Search Succeed
+2021-03-01 10:41:59  [ http-nio-8080-exec-10:13596 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4c018908
+2021-03-01 10:41:59  [ http-nio-8080-exec-10:13598 ] - [ INFO ]  Connection established in 51 ms.
+2021-03-01 10:42:04  [ http-nio-8080-exec-5:18545 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@224e977
+2021-03-01 10:42:04  [ http-nio-8080-exec-5:18546 ] - [ INFO ]  Connection established in 42 ms.
+2021-03-01 10:42:05  [ http-nio-8080-exec-8:19214 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4b94f3b6
+2021-03-01 10:42:05  [ http-nio-8080-exec-8:19215 ] - [ INFO ]  Connection established in 48 ms.
+2021-03-01 10:42:09  [ http-nio-8080-exec-1:23245 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@1ec57dae
+2021-03-01 10:42:09  [ http-nio-8080-exec-1:23246 ] - [ INFO ]  Connection established in 31 ms.
+2021-03-01 10:42:09  [ http-nio-8080-exec-4:23773 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@2b79531a
+2021-03-01 10:42:09  [ http-nio-8080-exec-4:23774 ] - [ INFO ]  Connection established in 31 ms.
+2021-03-01 10:42:10  [ http-nio-8080-exec-7:24373 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@2ab24ba4
+2021-03-01 10:42:10  [ http-nio-8080-exec-7:24374 ] - [ INFO ]  Connection established in 37 ms.
+2021-03-01 10:43:54  [ http-nio-8080-exec-5:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6f1dc33
+2021-03-01 10:43:54  [ http-nio-8080-exec-5:6 ] - [ INFO ]  Connection established in 1004 ms.
+2021-03-01 10:43:56  [ http-nio-8080-exec-7:2280 ] - [ INFO ]  Search Succeed
+2021-03-01 10:43:58  [ http-nio-8080-exec-8:4020 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@440d403b
+2021-03-01 10:43:58  [ http-nio-8080-exec-8:4021 ] - [ INFO ]  Connection established in 61 ms.
+2021-03-01 10:44:03  [ http-nio-8080-exec-10:9830 ] - [ INFO ]  name = 34
+2021-03-01 10:44:03  [ http-nio-8080-exec-10:9831 ] - [ INFO ]  DoPost
+2021-03-01 10:45:15  [ http-nio-8080-exec-5:81061 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@bc8bbc5
+2021-03-01 10:45:15  [ http-nio-8080-exec-5:81062 ] - [ INFO ]  Connection established in 55 ms.
+2021-03-01 10:57:56  [ http-nio-8080-exec-5:841969 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@75005b30
+2021-03-01 10:57:56  [ http-nio-8080-exec-5:841970 ] - [ INFO ]  Connection established in 55 ms.
+2021-03-01 10:59:13  [ http-nio-8080-exec-4:919509 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@3f1e82dc
+2021-03-01 10:59:13  [ http-nio-8080-exec-4:919509 ] - [ INFO ]  Connection established in 36 ms.
+2021-03-01 11:00:05  [ http-nio-8080-exec-2:971714 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@12caecad
+2021-03-01 11:00:05  [ http-nio-8080-exec-2:971714 ] - [ INFO ]  Connection established in 45 ms.
+2021-03-01 11:00:09  [ http-nio-8080-exec-7:975730 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@50b91c5b
+2021-03-01 11:00:09  [ http-nio-8080-exec-7:975732 ] - [ INFO ]  Connection established in 34 ms.
+2021-03-01 11:08:22  [ http-nio-8080-exec-6:1468649 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@738911f7
+2021-03-01 11:08:22  [ http-nio-8080-exec-6:1468650 ] - [ INFO ]  Connection established in 51 ms.
+2021-03-01 11:08:25  [ http-nio-8080-exec-7:1471202 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@676b9999
+2021-03-01 11:08:25  [ http-nio-8080-exec-7:1471202 ] - [ INFO ]  Connection established in 24 ms.
+2021-03-01 11:08:25  [ http-nio-8080-exec-8:1471745 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@651fb54f
+2021-03-01 11:08:25  [ http-nio-8080-exec-8:1471745 ] - [ INFO ]  Connection established in 31 ms.
+2021-03-01 11:08:26  [ http-nio-8080-exec-10:1472244 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@76372cf4
+2021-03-01 11:08:26  [ http-nio-8080-exec-10:1472245 ] - [ INFO ]  Connection established in 51 ms.
+2021-03-01 11:08:30  [ http-nio-8080-exec-2:1475988 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@27048a45
+2021-03-01 11:08:30  [ http-nio-8080-exec-2:1475988 ] - [ INFO ]  Connection established in 57 ms.
+2021-03-01 11:08:39  [ http-nio-8080-exec-8:1485287 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@1615cc64
+2021-03-01 11:08:39  [ http-nio-8080-exec-8:1485287 ] - [ INFO ]  Connection established in 57 ms.
+2021-03-01 11:12:20  [ http-nio-8080-exec-8:1706564 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@7d5fc268
+2021-03-01 11:12:20  [ http-nio-8080-exec-8:1706565 ] - [ INFO ]  Connection established in 34 ms.
+2021-03-01 11:12:23  [ http-nio-8080-exec-4:1709041 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@1aa6f05d
+2021-03-01 11:12:23  [ http-nio-8080-exec-4:1709042 ] - [ INFO ]  Connection established in 29 ms.
+2021-03-01 11:12:23  [ http-nio-8080-exec-9:1709807 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4141a49
+2021-03-01 11:12:23  [ http-nio-8080-exec-9:1709807 ] - [ INFO ]  Connection established in 29 ms.
+2021-03-01 11:12:24  [ http-nio-8080-exec-10:1710488 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@49e8a1a9
+2021-03-01 11:12:24  [ http-nio-8080-exec-10:1710489 ] - [ INFO ]  Connection established in 86 ms.
+2021-03-01 11:12:35  [ http-nio-8080-exec-2:1721378 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@33d819d9
+2021-03-01 11:12:35  [ http-nio-8080-exec-2:1721379 ] - [ INFO ]  Connection established in 88 ms.
+2021-03-01 11:12:36  [ http-nio-8080-exec-5:1722021 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4f33a293
+2021-03-01 11:12:36  [ http-nio-8080-exec-5:1722022 ] - [ INFO ]  Connection established in 20 ms.
+2021-03-01 11:12:36  [ http-nio-8080-exec-9:1722573 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@513d8674
+2021-03-01 11:12:36  [ http-nio-8080-exec-9:1722574 ] - [ INFO ]  Connection established in 22 ms.
+2021-03-01 11:12:41  [ http-nio-8080-exec-3:1726985 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6681ffcd
+2021-03-01 11:12:41  [ http-nio-8080-exec-3:1726985 ] - [ INFO ]  Connection established in 58 ms.
+2021-03-01 11:14:49  [ http-nio-8080-exec-7:1855801 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@55b18236
+2021-03-01 11:14:49  [ http-nio-8080-exec-7:1855801 ] - [ INFO ]  Connection established in 46 ms.
+2021-03-01 11:14:51  [ http-nio-8080-exec-9:1857270 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@d70d48f
+2021-03-01 11:14:51  [ http-nio-8080-exec-9:1857270 ] - [ INFO ]  Connection established in 25 ms.
+2021-03-01 11:14:51  [ http-nio-8080-exec-8:1857816 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@101e8c2b
+2021-03-01 11:14:51  [ http-nio-8080-exec-8:1857817 ] - [ INFO ]  Connection established in 23 ms.
+2021-03-01 11:14:52  [ http-nio-8080-exec-2:1858155 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4473892e
+2021-03-01 11:14:52  [ http-nio-8080-exec-2:1858156 ] - [ INFO ]  Connection established in 26 ms.
+2021-03-01 11:14:52  [ http-nio-8080-exec-6:1858489 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@289b54f5
+2021-03-01 11:14:52  [ http-nio-8080-exec-6:1858489 ] - [ INFO ]  Connection established in 43 ms.
+2021-03-01 11:14:53  [ http-nio-8080-exec-7:1859066 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@46a2051f
+2021-03-01 11:14:53  [ http-nio-8080-exec-7:1859067 ] - [ INFO ]  Connection established in 153 ms.
+2021-03-01 11:14:53  [ http-nio-8080-exec-9:1859732 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@382f03bf
+2021-03-01 11:14:53  [ http-nio-8080-exec-9:1859732 ] - [ INFO ]  Connection established in 26 ms.
+2021-03-01 11:15:50  [ http-nio-8080-exec-5:1916428 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@50fba503
+2021-03-01 11:15:50  [ http-nio-8080-exec-5:1916429 ] - [ INFO ]  Connection established in 65 ms.
+2021-03-01 11:15:51  [ http-nio-8080-exec-6:1917007 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@41d12279
+2021-03-01 11:15:51  [ http-nio-8080-exec-6:1917007 ] - [ INFO ]  Connection established in 16 ms.
+2021-03-01 11:15:51  [ http-nio-8080-exec-1:1917772 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@20714e74
+2021-03-01 11:15:51  [ http-nio-8080-exec-1:1917772 ] - [ INFO ]  Connection established in 46 ms.
+2021-03-01 11:15:52  [ http-nio-8080-exec-10:1918810 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@5725d980
+2021-03-01 11:15:52  [ http-nio-8080-exec-10:1918810 ] - [ INFO ]  Connection established in 22 ms.
+2021-03-01 11:15:55  [ http-nio-8080-exec-5:1921659 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@36491c2c
+2021-03-01 11:15:55  [ http-nio-8080-exec-5:1921659 ] - [ INFO ]  Connection established in 20 ms.
+2021-03-01 11:15:59  [ http-nio-8080-exec-6:1925877 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@3361f3aa
+2021-03-01 11:15:59  [ http-nio-8080-exec-6:1925877 ] - [ INFO ]  Connection established in 24 ms.
+2021-03-01 11:16:09  [ http-nio-8080-exec-9:1935175 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@38f3e2f2
+2021-03-01 11:16:09  [ http-nio-8080-exec-9:1935175 ] - [ INFO ]  Connection established in 19 ms.
+2021-03-01 11:16:10  [ http-nio-8080-exec-8:1936148 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@748e5a3c
+2021-03-01 11:16:10  [ http-nio-8080-exec-8:1936148 ] - [ INFO ]  Connection established in 28 ms.
+2021-03-01 11:16:11  [ http-nio-8080-exec-7:1936937 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@25220c58
+2021-03-01 11:16:11  [ http-nio-8080-exec-7:1936938 ] - [ INFO ]  Connection established in 23 ms.
+2021-03-01 11:16:11  [ http-nio-8080-exec-10:1937757 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@2a7b4702
+2021-03-01 11:16:11  [ http-nio-8080-exec-10:1937758 ] - [ INFO ]  Connection established in 20 ms.
+2021-03-01 11:16:12  [ http-nio-8080-exec-5:1938858 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4a269288
+2021-03-01 11:16:12  [ http-nio-8080-exec-5:1938858 ] - [ INFO ]  Connection established in 23 ms.
+2021-03-01 11:16:13  [ http-nio-8080-exec-6:1939786 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@60d82ff3
+2021-03-01 11:16:13  [ http-nio-8080-exec-6:1939787 ] - [ INFO ]  Connection established in 25 ms.
+2021-03-01 11:16:17  [ http-nio-8080-exec-3:1943682 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6860f0eb
+2021-03-01 11:16:17  [ http-nio-8080-exec-3:1943683 ] - [ INFO ]  Connection established in 26 ms.
+2021-03-01 11:16:19  [ http-nio-8080-exec-2:1945807 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@8f643c0
+2021-03-01 11:16:19  [ http-nio-8080-exec-2:1945807 ] - [ INFO ]  Connection established in 42 ms.
+2021-03-01 11:18:10  [ http-nio-8080-exec-2:2056106 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4b1438eb
+2021-03-01 11:18:10  [ http-nio-8080-exec-2:2056106 ] - [ INFO ]  Connection established in 23 ms.
+2021-03-01 11:18:31  [ http-nio-8080-exec-9:2077014 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6d487d4f
+2021-03-01 11:18:31  [ http-nio-8080-exec-9:2077014 ] - [ INFO ]  Connection established in 31 ms.
+2021-03-01 11:18:37  [ http-nio-8080-exec-5:2083648 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@233d7b29
+2021-03-01 11:18:37  [ http-nio-8080-exec-5:2083649 ] - [ INFO ]  Connection established in 24 ms.
+2021-03-01 11:18:38  [ http-nio-8080-exec-4:2083934 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@27fbcada
+2021-03-01 11:18:38  [ http-nio-8080-exec-4:2083935 ] - [ INFO ]  Connection established in 21 ms.
+2021-03-01 11:18:38  [ http-nio-8080-exec-10:2084154 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@29b3e3
+2021-03-01 11:18:38  [ http-nio-8080-exec-10:2084155 ] - [ INFO ]  Connection established in 46 ms.
+2021-03-01 11:18:38  [ http-nio-8080-exec-8:2084422 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@7a2a7f13
+2021-03-01 11:18:38  [ http-nio-8080-exec-8:2084423 ] - [ INFO ]  Connection established in 95 ms.
+2021-03-01 11:18:38  [ http-nio-8080-exec-7:2084888 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@25e6b3f5
+2021-03-01 11:18:38  [ http-nio-8080-exec-7:2084888 ] - [ INFO ]  Connection established in 28 ms.
+2021-03-01 11:18:39  [ http-nio-8080-exec-3:2085241 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@32be9c85
+2021-03-01 11:18:39  [ http-nio-8080-exec-3:2085241 ] - [ INFO ]  Connection established in 23 ms.
+2021-03-01 11:19:31  [ http-nio-8080-exec-9:2137883 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@5f43f23e
+2021-03-01 11:19:31  [ http-nio-8080-exec-9:2137884 ] - [ INFO ]  Connection established in 22 ms.
+2021-03-01 11:19:32  [ http-nio-8080-exec-7:2138659 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@65e25bee
+2021-03-01 11:19:32  [ http-nio-8080-exec-7:2138659 ] - [ INFO ]  Connection established in 31 ms.
+2021-03-01 11:19:33  [ http-nio-8080-exec-2:2138981 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@412d10f4
+2021-03-01 11:19:33  [ http-nio-8080-exec-2:2138981 ] - [ INFO ]  Connection established in 41 ms.
+2021-03-01 11:19:33  [ http-nio-8080-exec-4:2139488 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@484af82a
+2021-03-01 11:19:33  [ http-nio-8080-exec-4:2139489 ] - [ INFO ]  Connection established in 25 ms.
+2021-03-01 11:19:34  [ http-nio-8080-exec-9:2140041 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@2c0b7c05
+2021-03-01 11:19:34  [ http-nio-8080-exec-9:2140042 ] - [ INFO ]  Connection established in 18 ms.
+2021-03-01 11:19:34  [ http-nio-8080-exec-8:2140282 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@117c75bf
+2021-03-01 11:19:34  [ http-nio-8080-exec-8:2140282 ] - [ INFO ]  Connection established in 21 ms.
+2021-03-01 11:19:34  [ http-nio-8080-exec-5:2140498 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@751710ed
+2021-03-01 11:19:34  [ http-nio-8080-exec-5:2140498 ] - [ INFO ]  Connection established in 21 ms.
+2021-03-01 11:19:34  [ http-nio-8080-exec-6:2140830 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@1f1eadc8
+2021-03-01 11:19:34  [ http-nio-8080-exec-6:2140830 ] - [ INFO ]  Connection established in 98 ms.
+2021-03-01 11:19:35  [ http-nio-8080-exec-1:2141157 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6939ee3e
+2021-03-01 11:19:35  [ http-nio-8080-exec-1:2141158 ] - [ INFO ]  Connection established in 25 ms.
+2021-03-01 11:19:37  [ http-nio-8080-exec-3:2143802 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@56041197
+2021-03-01 11:19:37  [ http-nio-8080-exec-3:2143803 ] - [ INFO ]  Connection established in 21 ms.
+2021-03-01 11:19:38  [ http-nio-8080-exec-2:2144709 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@19111f93
+2021-03-01 11:19:38  [ http-nio-8080-exec-2:2144709 ] - [ INFO ]  Connection established in 27 ms.
+2021-03-01 11:20:10  [ http-nio-8080-exec-5:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@523fe392
+2021-03-01 11:20:10  [ http-nio-8080-exec-5:8 ] - [ INFO ]  Connection established in 3646 ms.
+2021-03-01 11:20:14  [ http-nio-8080-exec-9:4557 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@32b41bcc
+2021-03-01 11:20:14  [ http-nio-8080-exec-9:4568 ] - [ INFO ]  Connection established in 63 ms.
+2021-03-01 11:21:13  [ http-nio-8080-exec-9:63687 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@50489fd6
+2021-03-01 11:21:13  [ http-nio-8080-exec-9:63688 ] - [ INFO ]  Connection established in 44 ms.
+2021-03-01 11:21:38  [ http-nio-8080-exec-9:88753 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@41d12279
+2021-03-01 11:21:38  [ http-nio-8080-exec-9:88753 ] - [ INFO ]  Connection established in 61 ms.
+2021-03-01 11:21:56  [ http-nio-8080-exec-9:106405 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@3361f3aa
+2021-03-01 11:21:56  [ http-nio-8080-exec-9:106405 ] - [ INFO ]  Connection established in 32 ms.
+2021-03-01 13:54:07  [ http-nio-8080-exec-9:9237092 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@60d82ff3
+2021-03-01 13:54:07  [ http-nio-8080-exec-9:9237094 ] - [ INFO ]  Connection established in 205 ms.
+2021-03-01 13:54:34  [ http-nio-8080-exec-3:9264238 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@29d38512
+2021-03-01 13:54:34  [ http-nio-8080-exec-3:9264239 ] - [ INFO ]  Connection established in 70 ms.
+2021-03-01 14:01:39  [ http-nio-8080-exec-1:9688896 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@1ebc7905
+2021-03-01 14:01:39  [ http-nio-8080-exec-1:9688896 ] - [ INFO ]  Connection established in 136 ms.
+2021-03-01 14:01:46  [ http-nio-8080-exec-2:9696040 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@36ef6d43
+2021-03-01 14:01:46  [ http-nio-8080-exec-2:9696040 ] - [ INFO ]  Connection established in 47 ms.
+2021-03-01 14:01:52  [ http-nio-8080-exec-5:9702067 ] - [ INFO ]  name = 
+2021-03-01 14:01:52  [ http-nio-8080-exec-5:9702071 ] - [ INFO ]  DoPost
+2021-03-01 14:05:05  [ http-nio-8080-exec-6:9895769 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@669c95db
+2021-03-01 14:05:05  [ http-nio-8080-exec-6:9895773 ] - [ INFO ]  Connection established in 139 ms.
+2021-03-01 14:05:07  [ http-nio-8080-exec-5:9897705 ] - [ INFO ]  Search Succeed
+2021-03-01 14:06:09  [ http-nio-8080-exec-4:9959556 ] - [ INFO ]  Search Succeed
+2021-03-01 14:06:11  [ http-nio-8080-exec-1:9960905 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6769eeb2
+2021-03-01 14:06:11  [ http-nio-8080-exec-1:9960906 ] - [ INFO ]  Connection established in 75 ms.
+2021-03-01 14:06:15  [ http-nio-8080-exec-5:9964878 ] - [ INFO ]  name = we
+2021-03-01 14:06:15  [ http-nio-8080-exec-5:9964878 ] - [ INFO ]  DoPost
+2021-03-01 14:06:16  [ http-nio-8080-exec-9:9966514 ] - [ INFO ]  name = 
+2021-03-01 14:06:16  [ http-nio-8080-exec-9:9966514 ] - [ INFO ]  DoPost
+2021-03-01 14:06:59  [ http-nio-8080-exec-2:10009585 ] - [ INFO ]  name = 23
+2021-03-01 14:06:59  [ http-nio-8080-exec-2:10009590 ] - [ INFO ]  DoPost
+2021-03-01 14:07:05  [ http-nio-8080-exec-1:10014987 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6f70529e
+2021-03-01 14:07:05  [ http-nio-8080-exec-1:10014987 ] - [ INFO ]  Connection established in 50 ms.
+2021-03-01 14:07:09  [ http-nio-8080-exec-3:10019493 ] - [ INFO ]  name = 23
+2021-03-01 14:07:09  [ http-nio-8080-exec-3:10019494 ] - [ INFO ]  DoPost
+2021-03-01 14:07:44  [ http-nio-8080-exec-8:10053887 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@47e82bef
+2021-03-01 14:07:44  [ http-nio-8080-exec-8:10053888 ] - [ INFO ]  Connection established in 67 ms.
+2021-03-01 14:07:48  [ http-nio-8080-exec-10:10058479 ] - [ INFO ]  name = 23
+2021-03-01 14:07:48  [ http-nio-8080-exec-10:10058482 ] - [ INFO ]  DoPost
+2021-03-01 14:07:58  [ http-nio-8080-exec-1:10068323 ] - [ INFO ]  name = 23
+2021-03-01 14:07:58  [ http-nio-8080-exec-1:10068323 ] - [ INFO ]  DoPost
+2021-03-01 14:08:13  [ http-nio-8080-exec-8:10083506 ] - [ INFO ]  name = 233
+2021-03-01 14:08:13  [ http-nio-8080-exec-8:10083508 ] - [ INFO ]  DoPost
+2021-03-01 14:08:29  [ http-nio-8080-exec-1:10099835 ] - [ INFO ]  name = 23
+2021-03-01 14:08:29  [ http-nio-8080-exec-1:10099836 ] - [ INFO ]  DoPost
+2021-03-01 14:08:35  [ http-nio-8080-exec-6:10105248 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4831592
+2021-03-01 14:08:35  [ http-nio-8080-exec-6:10105249 ] - [ INFO ]  Connection established in 65 ms.
+2021-03-01 14:08:39  [ http-nio-8080-exec-8:10109397 ] - [ INFO ]  name = ewf
+2021-03-01 14:08:39  [ http-nio-8080-exec-8:10109398 ] - [ INFO ]  DoPost
+2021-03-01 14:09:17  [ http-nio-8080-exec-2:10147504 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@b27d490
+2021-03-01 14:09:17  [ http-nio-8080-exec-2:10147504 ] - [ INFO ]  Connection established in 60 ms.
+2021-03-01 14:10:35  [ http-nio-8080-exec-7:10224863 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@4f2cbc81
+2021-03-01 14:10:35  [ http-nio-8080-exec-7:10224864 ] - [ INFO ]  Connection established in 88 ms.
+2021-03-01 14:10:40  [ http-nio-8080-exec-3:10230271 ] - [ INFO ]  name = 23
+2021-03-01 14:10:40  [ http-nio-8080-exec-3:10230272 ] - [ INFO ]  DoPost
+2021-03-01 14:11:34  [ http-nio-8080-exec-10:10284450 ] - [ INFO ]  name = 23
+2021-03-01 14:11:34  [ http-nio-8080-exec-10:10284451 ] - [ INFO ]  DoPost
+2021-03-01 14:26:28  [ http-nio-8080-exec-10:11178661 ] - [ INFO ]  name = 
+2021-03-01 14:26:28  [ http-nio-8080-exec-10:11178661 ] - [ INFO ]  DoPost
+2021-03-01 14:26:50  [ http-nio-8080-exec-1:11200474 ] - [ INFO ]  name = 
+2021-03-01 14:26:50  [ http-nio-8080-exec-1:11200474 ] - [ INFO ]  DoPost
+2021-03-01 14:26:57  [ http-nio-8080-exec-7:11207112 ] - [ INFO ]  name = 23
+2021-03-01 14:26:57  [ http-nio-8080-exec-7:11207112 ] - [ INFO ]  DoPost
+2021-03-01 14:29:10  [ http-nio-8080-exec-6:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@6036cdc1
+2021-03-01 14:29:10  [ http-nio-8080-exec-6:11 ] - [ INFO ]  Connection established in 920 ms.
+2021-03-01 14:31:18  [ http-nio-8080-exec-9:127477 ] - [ INFO ]  Search Succeed
+2021-03-01 14:31:19  [ http-nio-8080-exec-10:129389 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@83f48e0
+2021-03-01 14:31:19  [ http-nio-8080-exec-10:129390 ] - [ INFO ]  Connection established in 247 ms.
+2021-03-01 14:31:26  [ http-nio-8080-exec-4:135512 ] - [ INFO ]  name = 34
+2021-03-01 14:31:26  [ http-nio-8080-exec-4:135512 ] - [ INFO ]  DoPost
+2021-03-01 14:32:36  [ http-nio-8080-exec-4:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@606b0043
+2021-03-01 14:32:36  [ http-nio-8080-exec-4:10 ] - [ INFO ]  Connection established in 1127 ms.
+2021-03-01 14:32:53  [ http-nio-8080-exec-7:16199 ] - [ INFO ]  name = 23
+2021-03-01 14:32:53  [ http-nio-8080-exec-7:16202 ] - [ INFO ]  DoPost
+2021-03-01 14:34:08  [ http-nio-8080-exec-3:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@78ffd4db
+2021-03-01 14:34:08  [ http-nio-8080-exec-3:7 ] - [ INFO ]  Connection established in 1303 ms.
+2021-03-01 14:34:13  [ http-nio-8080-exec-6:4992 ] - [ INFO ]  name = 23
+2021-03-01 14:34:13  [ http-nio-8080-exec-6:4994 ] - [ INFO ]  DoPost
+2021-03-01 14:37:42  [ http-nio-8080-exec-6:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@5aeaa4b8
+2021-03-01 14:37:42  [ http-nio-8080-exec-6:9 ] - [ INFO ]  Connection established in 1982 ms.
+2021-03-01 14:37:46  [ http-nio-8080-exec-3:3853 ] - [ INFO ]  name = 23
+2021-03-01 14:37:46  [ http-nio-8080-exec-3:3859 ] - [ INFO ]  DoPost
