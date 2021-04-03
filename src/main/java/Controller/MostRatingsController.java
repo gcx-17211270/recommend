@@ -1,6 +1,5 @@
 package Controller;
 
-import Mapper.ConnMySQL;
 import Mapper.MostRatingsImpl;
 import org.apache.log4j.Logger;
 
@@ -11,15 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 /**
- * 类           MostRatings
+ * 类           MostRatingsController
  * 类的作用:    通过数据库连接向html页面发送数据
- * Description: 显示有最多评分的电影信息
+ * Description: 显示有最多评分的电影信息,数据来源于MostRatingsImpl类提供
  * @Date:       2021/2/20 21:29
  * @author:     32353
  * @version     V1.0.0
@@ -44,7 +41,8 @@ public class MostRatingsController extends HttpServlet
 
         os.println("<table style='border:10px solid gray;'>" +
                 "<tr style='border:15px solid gray; text-align:center;'>" +
-                "<th>movie_title</th><th>movie_genres</th><th>rating(s)</th></tr>");
+                "<th>movie_title</th><th>movie_genres</th><th>rating(s)</th>" +
+                "</tr>");
         try {
             mostRatings = new MostRatingsImpl();
             ResultSet rs = mostRatings.getResult();

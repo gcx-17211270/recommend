@@ -72,4 +72,42 @@
         <!--对于不在resource目录下的其他资源文件的定位问题，在这里标注-->
     </build>
 
+    <!--
+    遇到了这样的报错
+    Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
+    -->
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.6</version>
+        <!--            <reportSets>  -->
+        <!--        <execution>  -->
+        <!--            <phase>compile</phase>  -->
+        <!--        </execution>  -->
+        <!--    </reportSets>  -->
+        <!--    <configuration>  -->
+<!--            <encoding>${project.build.sourceEncoding}</encoding>  -->
+        <!--    </configuration>  -->
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>2.7</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>2.5</version>
+                <!--<configuration>-->
+                    <!--<filesets>-->
+                        <!--<fileset>-->
+                            <!--<directory>src/main</directory>-->
+                        <!--</fileset>-->
+                    <!--</filesets>-->
+                <!--</configuration>-->
+            </plugin>
+        </plugins>
+    </reporting>
 </project>

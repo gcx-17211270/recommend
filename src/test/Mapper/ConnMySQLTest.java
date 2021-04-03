@@ -1,3 +1,5 @@
+package Mapper;
+
 import Mapper.ConnMySQL;
 import org.junit.Test;
 

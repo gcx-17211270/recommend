@@ -1,4 +1,0 @@
-2021-03-28 22:19:56  [ main:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@3561c410
-2021-03-28 22:19:56  [ main:13 ] - [ INFO ]  Connection established in 1384 ms.
-2021-03-28 22:20:10  [ main:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@3561c410
-2021-03-28 22:20:10  [ main:10 ] - [ INFO ]  Connection established in 1213 ms.

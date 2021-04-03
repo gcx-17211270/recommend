@@ -1,15 +1,23 @@
 package Mapper;
 
-import Controller.MostRatingsController;
 import org.apache.log4j.Logger;
 
-import javax.servlet.ServletOutputStream;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+/**
+ * 类           MostRatingsImpl
+ * 类的作用:    获取评分数据的一个具体实现类
+ * Description: getResult()方法实现了接口中定义的数据格式
+ *              finish()方法关闭了与数据库的各种连接
+ * @Date:       2021/4/3 16:35
+ * @author:     32353
+ * @version     V1.0.0
+*/
 
 public class MostRatingsImpl implements MostRatingsDao {
+
     Logger Log = Logger.getLogger(MostRatingsImpl.class);
     private Connection conn = null;
     private Statement stmt = null;
@@ -33,8 +41,8 @@ public class MostRatingsImpl implements MostRatingsDao {
             rs = stmt.executeQuery(sql);
             return rs;
         }
-        catch (SQLException sqlex){
-            Log.error(sqlex);
+        catch (SQLException SQLex){
+            Log.error(SQLex);
         }
         catch (Exception ex) {
             Log.error(ex);
@@ -47,6 +55,7 @@ public class MostRatingsImpl implements MostRatingsDao {
             rs.close();
             stmt.close();
             conn.close();
+            ConnMySQL.finish();
         }
         catch (SQLException ex) {
             Log.error(ex);

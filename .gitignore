@@ -78,6 +78,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+logs/
 
 # Sphinx documentation
 docs/_build/
@@ -94,3 +95,4 @@ log/
 
 # vscode
 .vscode/
+

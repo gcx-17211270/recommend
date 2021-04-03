@@ -1,5 +1,9 @@
 package Utils;
 
+import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 /**
  * 类           RecommendationUtilsTest
@@ -11,5 +15,11 @@ import static org.junit.Assert.*;
 */
 
 public class RecommendationUtilsTest {
-
+    Logger log = Logger.getLogger(RecommendationUtilsTest.class);
+    @Test
+    public void testRecommendation(){
+        SqlSession sqlSession = RecommendationUtils.getSqlSession();
+        log.info(sqlSession);
+        sqlSession.close();
+    }
 }

@@ -27,13 +27,13 @@ public class RecommendationUtils {
 
     static {
         Logger Log = Logger.getLogger(RecommendationUtils.class);
-        String resource = "org/mybatis/example/mybatis-config.xml";
+        String resource = "mybatis-config.xml";
         InputStream inputStream = null;
         try {
             inputStream = Resources.getResourceAsStream(resource);
         } catch (IOException e) {
             e.printStackTrace();
-            Log.info(e);
+            Log.error(e);
         }
         sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
     }

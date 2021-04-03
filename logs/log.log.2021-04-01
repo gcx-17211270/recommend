@@ -1,9 +1,0 @@
-2021-04-01 08:46:45  [ http-nio-8080-exec-7:0 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@7b64a4df
-2021-04-01 08:46:45  [ http-nio-8080-exec-7:7 ] - [ INFO ]  Connection established in 844 ms.
-2021-04-01 08:46:46  [ http-nio-8080-exec-7:818 ] - [ INFO ]  Get data From MySQL Success!
-2021-04-01 08:47:06  [ http-nio-8080-exec-5:20619 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@408f6eff
-2021-04-01 08:47:06  [ http-nio-8080-exec-5:20621 ] - [ INFO ]  Connection established in 87 ms.
-2021-04-01 08:47:06  [ http-nio-8080-exec-5:21167 ] - [ INFO ]  Get data From MySQL Success!
-2021-04-01 08:52:42  [ http-nio-8080-exec-1:356954 ] - [ INFO ]  com.mysql.cj.jdbc.ConnectionImpl@67ec8d63
-2021-04-01 08:52:42  [ http-nio-8080-exec-1:356954 ] - [ INFO ]  Connection established in 48 ms.
-2021-04-01 08:52:43  [ http-nio-8080-exec-1:357401 ] - [ INFO ]  Get data From MySQL Success!
