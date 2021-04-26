@@ -1,3 +1,13 @@
 
-Tjavascript:S1854"3Remove this useless assignment to variable "input".(ŸÁò‹ÿÿÿÿÿ
-Wjavascript:S1481"6Remove the declaration of the unused 'input' variable.(ŸÁò‹ÿÿÿÿÿ
+Cjavascript:S2814…"'jsonArray' is already defined.(¶êˆÆ8œ¤»œŠ/
+mjavascript:S905B"FExpected an assignment or function call and instead saw an expression.(±Õ–âøÿÿÿÿ8ä±ƒŠ/
+Jjavascript:S2814„"!'htmlContent' is already defined.(ÖüÆ¿úÿÿÿÿ8œ¤»œŠ/
+javascript:S2703""WAdd the "let", "const" or "var" keyword to this declaration of "i" to make it explicit.(®ğà×şÿÿÿÿ8¬£ç›Š/
+Wjavascript:S1481"6Remove the declaration of the unused 'input' variable.(ŸÁò‹ÿÿÿÿÿ
+Tjavascript:S1854"3Remove this useless assignment to variable "input".(ŸÁò‹ÿÿÿÿÿ
+@javascript:S2814‰"'i' is already defined.(á×Ûïøÿÿÿÿ8¤˜ ŸŠ/
+Bjavascript:S2814Z"'sUrl' is already defined.(›¤Ğüÿÿÿÿ8‘ üŠ/
+Vjavascript:S1117/"3'tableName' is already declared in the upper scope.(Êì…ã8Áˆ¢Š/
+~javascript:S2703¢"ZAdd the "let", "const" or "var" keyword to this declaration of "sUrl" to make it explicit.(°Şôâ8ÖÁ¤¡Š/
+Wjavascript:S1117."/'radio' is already declared in the upper scope.(õ©÷ñøÿÿÿÿ8Áˆ¢Š/
+?javascript:S2814|"'i' is already defined.(á×Ûïøÿÿÿÿ8ûÅ±œŠ/

@@ -172,7 +172,7 @@ class UserBasedCF(object):
         popularity = popular_sum / (1.0 * rec_count)
 
         oldstdout = sys.stdout
-        file=open('result/userBasedCFResult.txt','w')
+        file=open('result/userBasedCFResult_big.txt','w')
         sys.stdout=file
         print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
                (precision, recall, coverage, popularity))
@@ -185,13 +185,13 @@ class UserBasedCF(object):
 
 
 if __name__ == '__main__':
-    ratingfile = os.path.join('data\\ml-latest-small', 'ratings.csv')
+    ratingfile = os.path.join('data\\ml-latest', 'ratings.csv')
     usercf = UserBasedCF()
     usercf.generate_dataset(ratingfile)
     usercf.calc_user_sim()
     rec_result = usercf.evaluate()
 
-    file = open('result/userBasedCF.txt', 'w')
+    file = open('result/userBasedCF_big.txt', 'w')
     sys.stdout = file
     print(rec_result)
     file.close()

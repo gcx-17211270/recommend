@@ -62,6 +62,9 @@ class ConnMySQL:
         i = int(0)
         for key in dic.keys():
             i = i + 1
+            print(dic.get(key).strip())
+            if dic.get(key).strip() == '[]':
+                continue
             vals = dic.get(key)[2:-2].replace("\'", "").split("),(")
             for j in range(len(vals)):
                 id = int(key)
@@ -70,9 +73,12 @@ class ConnMySQL:
                 score = float(info[1])
                 sql = "INSERT " + tableName + \
                       " VALUES(" + str(id) + "," + str(rec) + "," + str(score) + ")"
-                if i % 100 == 1 and j == 0:
-                    print("insert data for %d users" % i)
-                    print(sql)
+                # if i % 100 == 1 and j == 0:
+                #     print("insert data for %d users" % i)
+                #     print(sql)
+                
+                print("insert data for %d users" % i)
+                print(sql)
                 try:
                     cursor.execute(sql)
 
@@ -145,12 +151,25 @@ if __name__ == '__main__':
     db.close()
 
     # 对计算结果存储到数据库中
-    a = ConnMySQL("root", "17211270", "movies_data2")
-    # a.store_data("itemBasedCF.txt")
-    # a.store_data("userBasedCF.txt")
-    # a.store_data("LFM.txt")
+    # a = ConnMySQL("root", "17211270", "movies_data2")
+    # # a.store_data("itemBasedCF.txt")
+    # # a.store_data("userBasedCF.txt")
+    # # a.store_data("LFM.txt")
+    # # 将算法评价指标存储到数据库中
+    # a.clear_table("Result")
+    # a.store_result("itemBasedCFResult.txt")
+    # a.store_result("userBasedCFResult.txt")
+    # a.store_result("LFMResult.txt")
+
+    # b是较大的数据集
+    b = ConnMySQL("root", "17211270", "movies_data")
+    # b.store_data("itemBasedCF.txt")
+    # b.store_data("userBasedCF.txt")
+    # b.store_data("LFM.txt")
+    b.store_data("userBasedCF_big.txt")
     # 将算法评价指标存储到数据库中
-    a.clear_table("Result")
-    a.store_result("itemBasedCFResult.txt")
-    a.store_result("userBasedCFResult.txt")
-    a.store_result("LFMResult.txt")
+    b.clear_table("Result")
+    # b.store_result("itemBasedCFResult.txt")
+    b.store_result("userBasedCFResult.txt")
+    # b.store_result("LFMResult.txt")
+    b.store_result("userBasedCFResult_big.txt")

@@ -171,7 +171,7 @@ class ItemBasedCF(object):
         popularity = popular_sum / (1.0 * rec_count)
 
         oldstdout = sys.stdout
-        file=open('result/itemBasedCFResult.txt','w')
+        file=open('result/itemBasedCFResult-New.txt','w')
         sys.stdout=file
         print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
                (precision, recall, coverage, popularity))
@@ -184,13 +184,13 @@ class ItemBasedCF(object):
 
 
 if __name__ == '__main__':
-    ratingfile = os.path.join('data', 'ml-latest-small', 'ratings.csv')
+    ratingfile = os.path.join('data', 'ml-latest', 'ratings.csv')
     itemcf = ItemBasedCF()
     itemcf.generate_dataset(ratingfile)
     itemcf.calc_movie_sim()
     rec_result = itemcf.evaluate()
 
-    file = open('result/itemBasedCF.txt', 'w')
+    file = open('result/itemBasedCF-New.txt', 'w')
     sys.stdout = file
     print(rec_result)
     file.close()

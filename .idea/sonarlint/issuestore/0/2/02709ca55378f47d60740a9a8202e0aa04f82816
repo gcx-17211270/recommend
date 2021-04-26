@@ -1,0 +1,10 @@
+
+wpython:S117–"ZRename this local variable "oldStdout" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÇËÞ’ÿÿÿÿÿ
+dpython:S117/"MRename this parameter "K" to match the regular expression ^[_a-z][a-z0-9_]*$.(™ÜŠµ
+ipython:S117"MRename this parameter "K" to match the regular expression ^[_a-z][a-z0-9_]*$.(¥Š­·ùÿÿÿÿ
+<python:S125"Remove this commented out code.(‘°Ê‹þÿÿÿÿ
+epython:S1763»"GDelete this unreachable code or refactor the code to make it reachable.(­´®çûÿÿÿÿ
+=python:S1481Y"%Remove the unused local variable "i".(“â˜
+kpython:S117l"TRename this local variable "Puk" to match the regular expression ^[_a-z][a-z0-9_]*$.(ä¨Ÿ‡
+qpython:S117¼"TRename this local variable "Qik" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤ü»ÿÿÿÿÿ
+ppython:S117m"TRename this local variable "Qki" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÎØ„ëÿÿÿÿÿ

@@ -1,13 +1,5 @@
 
-n
-java:S1989"LHandle the following exception that could be thrown by "write": IOException.(çÛ÷Þüÿÿÿÿ8Š©„Ü‰/
-x
-java:S1989"VHandle the following exception that could be thrown by "getOutputStream": IOException.(™ë÷¨üÿÿÿÿ8Š©„Ü‰/
-‚
-java:S1989"`Handle the following exception that could be thrown by "getBytes": UnsupportedEncodingException.(¸©åÀùÿÿÿÿ8Š©„Ü‰/
 [
 java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¸©åÀùÿÿÿÿ8Š©„Ü‰/
-‚
-java:S1989$"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(Í†»Öúÿÿÿÿ8Š©„Ü‰/
 E
 java:S1185#"(Remove this method to simply inherit it.(üª¼í8Š©„Ü‰/

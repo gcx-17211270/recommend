@@ -8,28 +8,28 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--namespace命名空间，包名与接口一致-->
 <mapper namespace="mapper.SearchMovieMapper">
-    <select id="searchMovieIdForInfo" resultType="movie" parameterType="int">
+    <select id="searchMovieIdForInfo" resultType="POJO.movie" parameterType="int">
         SELECT *
         FROM movies
         WHERE movieId = #{movieId}
         LIMIT 5;
     </select>
 
-    <select id="searchMovieIdForRatings" resultType="rating" parameterType="int">
+    <select id="searchMovieIdForRatings" resultType="POJO.rating" parameterType="int">
         SELECT *
         FROM ratings
         WHERE movieId = #{movieId}
         LIMIT 5;
     </select>
 
-    <select id="searchMovieIdForTags" resultType="tag" parameterType="int">
+    <select id="searchMovieIdForTags" resultType="POJO.tag" parameterType="int">
         SELECT *
         FROM tags
         WHERE movieId = #{movieId}
         LIMIT 5;
     </select>
 
-    <select id="searchMovieNameForInfo" resultType="movie" parameterType="String">
+    <select id="searchMovieNameForInfo" resultType="POJO.movie" parameterType="String">
     SELECT *
     FROM movies
     WHERE

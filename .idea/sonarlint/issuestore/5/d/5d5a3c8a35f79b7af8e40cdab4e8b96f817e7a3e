@@ -1,0 +1,6 @@
+
+|
+java:S11495"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(íÃÄÄ8¬òõ¦Š/
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(ÿ§—šøÿÿÿÿ8¬òõ¦Š/
+u
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÓÚöú8¬òõ¦Š/

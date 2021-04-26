@@ -60,7 +60,7 @@ public class MostRatingsController extends HttpServlet
             Log.error(ex);
         }
         finally {
-            mostRatings.finish();
+            /// mostRatings.finish();
         }
     }
 }

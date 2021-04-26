@@ -47,7 +47,7 @@ public class SearchId extends HttpServlet {
         List<rating> ratings = smm.searchMovieIdForRatings(id);
         List<tag> tags = smm.searchMovieIdForTags(id);
 
-        StringBuffer str = new StringBuffer("");
+        StringBuffer str = new StringBuffer();
         str.append(SearchMovieByName.List2Array(movies) + "&");
         str.append(SearchMovieByName.List2Array(ratings) + "&");
         str.append(SearchMovieByName.List2Array(tags));

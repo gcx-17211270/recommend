@@ -95,38 +95,38 @@
     遇到了这样的报错
     Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
     -->
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>2.6</version>
-        <!--            <reportSets>  -->
-        <!--        <execution>  -->
-        <!--            <phase>compile</phase>  -->
-        <!--        </execution>  -->
-        <!--    </reportSets>  -->
-        <!--    <configuration>  -->
-<!--            <encoding>${project.build.sourceEncoding}</encoding>  -->
-        <!--    </configuration>  -->
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.7</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-clean-plugin</artifactId>
-                <version>2.5</version>
-                <!--<configuration>-->
-                    <!--<filesets>-->
-                        <!--<fileset>-->
-                            <!--<directory>src/main</directory>-->
-                        <!--</fileset>-->
-                    <!--</filesets>-->
-                <!--</configuration>-->
-            </plugin>
-        </plugins>
-    </reporting>
+    <!--<reporting>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-resources-plugin</artifactId>-->
+                <!--<version>2.6</version>-->
+        <!--&lt;!&ndash;            <reportSets>  &ndash;&gt;-->
+        <!--&lt;!&ndash;        <execution>  &ndash;&gt;-->
+        <!--&lt;!&ndash;            <phase>compile</phase>  &ndash;&gt;-->
+        <!--&lt;!&ndash;        </execution>  &ndash;&gt;-->
+        <!--&lt;!&ndash;    </reportSets>  &ndash;&gt;-->
+        <!--&lt;!&ndash;    <configuration>  &ndash;&gt;-->
+<!--&lt;!&ndash;            <encoding>${project.build.sourceEncoding}</encoding>  &ndash;&gt;-->
+        <!--&lt;!&ndash;    </configuration>  &ndash;&gt;-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-project-info-reports-plugin</artifactId>-->
+                <!--<version>2.7</version>-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-clean-plugin</artifactId>-->
+                <!--<version>2.5</version>-->
+                <!--&lt;!&ndash;<configuration>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<filesets>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<fileset>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<directory>src/main</directory>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</fileset>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</filesets>&ndash;&gt;-->
+                <!--&lt;!&ndash;</configuration>&ndash;&gt;-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</reporting>-->
 </project>

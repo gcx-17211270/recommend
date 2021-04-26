@@ -1,17 +1,5 @@
 
-p
-java:S1989@"NHandle the following exception that could be thrown by "println": IOException.(»¸ƒõüÿÿÿÿ8è“ÍÕ‰/
-‚
-java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(éöõ¦ùÿÿÿÿ8è“ÍÕ‰/
-k
-java:S19892"NHandle the following exception that could be thrown by "println": IOException.(²‹ÅŸ8è“ÍÕ‰/
-h
-java:S11923"FDefine a constant instead of duplicating this literal "</td>" 3 times.(öÿğüÿÿÿÿ8è“ÍÕ‰/
-p
-java:S1989*"NHandle the following exception that could be thrown by "println": IOException.(°ó¶˜ûÿÿÿÿ8è“ÍÕ‰/
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º›°Î8è“ÍÕ‰/
-x
-java:S1989'"VHandle the following exception that could be thrown by "getOutputStream": IOException.(€¥àúÿÿÿÿ8è“ÍÕ‰/
-f
-java:S2259>"IA "NullPointerException" could be thrown; "mostRatings" is nullable here.(À×Ïº8è“ÍÕ‰/
 m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡÷Äè8è“ÍÕ‰/
+h
+java:S11923"FDefine a constant instead of duplicating this literal "</td>" 3 times.(öÿğüÿÿÿÿ8Ã™´Š/
+W	java:S125?"<This block of commented-out lines of code should be removed.(¯„ı8…¶ÿ½/

@@ -79,6 +79,7 @@ function recommend_for_user() {
 }
 
 function searchMovie() {
+    alert(str);
     var str = document.getElementById("SearchText").value;
     //输入了电影名模糊查询
     if (isNaN(str)) {
@@ -91,7 +92,8 @@ function searchMovie() {
     var xmlhttp = createXMLHTTPObject();
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4) {
-            var textArray = xmlhttp.responseText.split("&");
+            //为了防止电影名中出现的&被误认为是分隔符
+            var textArray = xmlhttp.responseText.trim().replaceAll("]&[", "]&&&[").split("&&&");
             if (textArray[0].trim() == "[]") {
                 alert("未查找到相关信息");
             }
@@ -118,7 +120,7 @@ function searchMovie() {
                 jsonArray = JSON.parse(textArray[2]);
                 htmlContent += "<table style='border:3px solid gray;width: 100%;text-align:center;'>" +
                     "<tr style='border:1px solid gray; text-align:center;'>" +
-                    "<th>userId</th><th>movieId</th><th>rating</th><th>timestamp</th></tr>";
+                    "<th>userId</th><th>movieId</th><th>tag</th><th>timestamp</th></tr>";
                 for (var i = 0; i < jsonArray.length; i++) {
                     htmlContent += "<tr>"+
                         "<td>" + jsonArray[i].userId + "</td><td>" + jsonArray[i].movieId + "</td><td>" + jsonArray[i].tag + " </td><td>" + jsonArray[i].timestamp + " </td></tr>"
@@ -138,8 +140,10 @@ function searchMovie() {
                 htmlContent += "</table>";
                 document.getElementById("recommend-left-img").innerHTML = htmlContent;
             }
-            else
-                alert("获得数据库中的电影信息、用户评分信息、用户标签信息");
+            else{
+                //&做分隔符在电影名中也可以找到，所以有时候会长度为2
+                alert("未查找到相关信息");
+            }
         }
     }
     xmlhttp.open('GET', sUrl);

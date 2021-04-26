@@ -39,10 +39,6 @@ public class ResultController extends HttpServlet {
         ResultSet rs = resultImpl.getResultByName(tableName);
         try {
             while (rs.next()) {
-                System.out.println(rs.getDouble(2) + "&" +
-                        + rs.getDouble(3)  + "&" +
-                        + rs.getDouble(4)  + "&" +
-                        + rs.getDouble(5));
                 pw.print(rs.getDouble(2) + "&" +
                         + rs.getDouble(3)  + "&" +
                         + rs.getDouble(4)  + "&" +
@@ -53,7 +49,7 @@ public class ResultController extends HttpServlet {
         catch (SQLException ex) {
             log.error(ex);
         }
-        resultImpl.finish();
+        /// resultImpl.finish();
     }
 
     @Override

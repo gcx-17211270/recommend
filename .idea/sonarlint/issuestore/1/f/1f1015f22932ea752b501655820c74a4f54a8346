@@ -1,0 +1,14 @@
+
+H
+java:S1168"+Return an empty collection instead of null.(¥¹ï8Äø­’Š/
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ûòå»şÿÿÿÿ8 ã©›Š/
+L
+java:S1172"0Remove this unused method parameter "movieName".(âŒ­h8Äø­’Š/
+H
+java:S1168"+Return an empty collection instead of null.(¥¹ï8Äø­’Š/
+
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".( Ìñÿÿÿÿÿ8 ã©›Š/
+M
+java:S1172"0Remove this unused method parameter "movieName".(›¡ç·8Äø­’Š/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûòå»şÿÿÿÿ8 ã©›Š/

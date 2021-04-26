@@ -1,5 +1,8 @@
 
-o	java:S116"NRename this field "Log" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œæ½úùÿÿÿÿ8åÁßÓ‰/
+r	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¼÷“ÿÿÿÿÿ8åÁßÓ‰/
 Y
-java:S2589+"7Remove this expression which always evaluates to "true"(Ñ¿È©ûÿÿÿÿ8èÄºÖ‰/
-r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¼÷“ÿÿÿÿÿ8åÁßÓ‰/
+java:S2589,"7Remove this expression which always evaluates to "true"(Ñ¿È©ûÿÿÿÿ8èÄºÖ‰/
+o	java:S116"NRename this field "Log" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œæ½úùÿÿÿÿ8åÁßÓ‰/
+p
+java:S1450"SRemove the "conn" field and declare it as a local variable in the relevant methods.(·ššÔ8‘Óñ½/
+]	java:S125@"<This block of commented-out lines of code should be removed.(Ú†Úéøÿÿÿÿ8‘Óñ½/

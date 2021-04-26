@@ -1,0 +1,9 @@
+
+]	java:S125("<This block of commented-out lines of code should be removed.(Ú†Úéøÿÿÿÿ8Éî½/
+E
+java:S1128"(Remove this unused import 'POJO.result'.(²’©É8ı—Š/
+p
+java:S1450"SRemove the "conn" field and declare it as a local variable in the relevant methods.(·ššÔ8Éî½/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¼÷“ÿÿÿÿÿ8Â»ŒŠ/
+J
+java:S3416"-Update this logger to use "ResultImpl.class".(Å½¤†8ûÛ†Š/

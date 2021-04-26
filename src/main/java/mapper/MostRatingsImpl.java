@@ -61,7 +61,7 @@ public class MostRatingsImpl implements MostRatingsDao {
         try {
             rs.close();
             stmt.close();
-            conn.close();
+            /// conn.close();
             ConnMySQL.finish();
         }
         catch (SQLException ex) {

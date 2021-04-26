@@ -15,7 +15,6 @@ import java.util.List;
 */
 
 public interface RecommendationMapper {
-    //MyBatis如何判断出我是否传入了一个参数？如果有则用传入，否则用默认
 
     //获得itemBasedCF表中的所有用户1的推荐结果列表
     List<Recommendation> getRecommendation();

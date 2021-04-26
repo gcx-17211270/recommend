@@ -36,7 +36,8 @@ public class ResultImpl implements ResultDao {
         try {
             rs.close();
             stmt.close();
-            conn.close();
+            /// 对于仍然需要对这个数据库查询的语句来说，提前关闭数据库会造成并行时的影响
+            /// conn.close();
         } catch (SQLException e) {
             log.error(e);
         }

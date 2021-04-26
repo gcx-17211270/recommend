@@ -3,16 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <properties resource="db.properties">
-
-    </properties>
-
-    <typeAliases>
-        <!--设置类型别名，可以让冗长的包名获得短的别名-->
-        <typeAlias type="POJO.Recommendation2" alias="rec2"/>
-        <!--这样配置会自动扫描下面的所有类，使用它的首字母小写类名为别名（或者注解的别名）-->
-        <package name="POJO" />
-    </typeAliases>
+    <properties resource="db.properties"></properties>
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
