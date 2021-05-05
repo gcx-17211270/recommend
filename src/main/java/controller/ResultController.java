@@ -21,7 +21,7 @@ import java.sql.SQLException;
  * @author:     32353
  * @version     V1.0.0
 */
-@WebServlet("/getRecResult")
+@WebServlet("/static/html/getRecResult")
 public class ResultController extends HttpServlet {
     private Logger log = Logger.getLogger(ResultController.class);
     @Override

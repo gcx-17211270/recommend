@@ -29,7 +29,6 @@ public class ConnMySQL {
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + database,
                     "root", "17211270");
             long end = System.currentTimeMillis();
-            log.info(conn);
             log.info("Connection established in " + (end - start) + " ms.");
             //log.info("建立连接耗时 " + (end - start) + "毫秒");//console的输出编码是GBK，怎么把Log的编码也改成GBK呢？
         } catch (SQLException e) {

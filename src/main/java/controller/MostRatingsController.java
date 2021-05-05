@@ -24,7 +24,7 @@ import java.util.List;
  * @author:     32353
  * @version     V1.0.0
 */
-@WebServlet("/MostRatings")
+@WebServlet("/static/html/MostRatings")
 public class MostRatingsController extends HttpServlet
 {
     @Override

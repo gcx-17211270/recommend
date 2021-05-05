@@ -7,49 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748dc1e8-1aa6-483d-b9ed-3f621161413c" name="Default Changelist" comment="0403-0406 增添了mybatis支持，对整体框架进行了内容填充">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/recommend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/ref/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/ref/radio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/ref/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/controller/MostRatingsControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/ref/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cca0dc6852579847c4e6f60c3e337f2eb163399" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cca0dc6852579847c4e6f60c3e337f2eb163399" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/121be8ee8c2a792a151a43014a4ecaf301258c45" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/121be8ee8c2a792a151a43014a4ecaf301258c45" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1337d72a3b1928dba82aa5210f5cdc0e88ce895b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1337d72a3b1928dba82aa5210f5cdc0e88ce895b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fa0d78cd46d54fe7d68577b36d9428b5b8ed627" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/335793d25eb77e8459ed8187739ecb672f81b96f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3586647194903d14a8f7990dd9ef11a6998fc67e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/708500e51de85541a5c49d0f667d0eb584b3a631" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/708500e51de85541a5c49d0f667d0eb584b3a631" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c74ff667460b8be6ba3fffae14417b384feba5b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e1beb5226ee68a12b687d8e1757800c0319a378" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/977f74b591b85804307b621e78ba17cf17c097ff" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/977f74b591b85804307b621e78ba17cf17c097ff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4bd35516a478d11cc2af3739b73bb70a9c9e52a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4bd35516a478d11cc2af3739b73bb70a9c9e52a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eebb7c9aa8db2e247cda789e01e5d0c9170289ea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0f9983e9b12489d646259e06136ee0f5cc38e1f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0f9983e9b12489d646259e06136ee0f5cc38e1f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/DatabaseCREATE.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/DatabaseCREATE.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Mapper/ResultImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mapper/ResultImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Mapper/SearchMovieMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mapper/SearchMovieMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/POJO/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO/movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/MostRatingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MostRatingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/RecommendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/RecommendController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/MostRatingsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mapper/MostRatingsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/RecommendationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/RecommendationUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/box.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/box.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/html/root.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/root.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1509.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1607.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1607/blank.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1607/index.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1607/main.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1607/server.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1607/server2.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_1806.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/temp/_19Ajax/createXMLHTTPObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SearchId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SearchId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SearchName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SearchName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SimpleAjaxServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SimpleAjaxServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ConnMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ConnMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/JavaScript/root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/recommend.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/recommend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/html/Search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/html/change.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/html/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/html/root.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/html/test.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,8 +136,9 @@
     <session id="496627999">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.21" value="1" />
@@ -165,7 +149,7 @@
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.46" value="1" />
@@ -177,23 +161,23 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ASP" value="1" />
           <entry key="CLASS" value="25" />
-          <entry key="CSS" value="21" />
+          <entry key="CSS" value="24" />
           <entry key="Database Element" value="11" />
           <entry key="Eclipse" value="2" />
-          <entry key="HTML" value="49" />
+          <entry key="HTML" value="54" />
           <entry key="IDEA_MODULE" value="11" />
-          <entry key="JAVA" value="229" />
+          <entry key="JAVA" value="247" />
           <entry key="JSP" value="3" />
-          <entry key="JavaScript" value="46" />
+          <entry key="JavaScript" value="49" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="PLAIN_TEXT" value="68" />
           <entry key="Properties" value="13" />
           <entry key="Python" value="18" />
           <entry key="SQL" value="6" />
@@ -206,11 +190,11 @@
         <counts>
           <entry key="ASP" value="231" />
           <entry key="CLASS" value="2" />
-          <entry key="CSS" value="2363" />
-          <entry key="HTML" value="7268" />
+          <entry key="CSS" value="2576" />
+          <entry key="HTML" value="7669" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="12864" />
-          <entry key="JavaScript" value="6930" />
+          <entry key="JAVA" value="13153" />
+          <entry key="JavaScript" value="7093" />
           <entry key="PLAIN_TEXT" value="263" />
           <entry key="Properties" value="208" />
           <entry key="Python" value="423" />
@@ -228,8 +212,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/table.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state>
               <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="103" column="88" selection-start-line="103" selection-start-column="88" selection-end-line="103" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#label#0;n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,61 +241,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="109" column="45" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="45" />
+            <state relative-caret-position="100">
+              <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
               <folding>
-                <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#label#0;n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/radio.css">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/box.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-383">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/recommend.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -299,14 +262,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="125" column="38" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="38" />
+            <state relative-caret-position="2233">
+              <caret line="235" column="5" lean-forward="true" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -320,20 +301,16 @@
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onload</find>
-      <find>基于协同过滤算法的电影推荐系统</find>
-      <find>width</find>
-      <find>src</find>
       <find>getUserId</find>
       <find>xmlHttp</find>
       <find>connectMovieData</find>
@@ -360,6 +337,10 @@
       <find>form__label</find>
       <find>&lt;div class=\&quot;col col-1\&quot;&gt;recommendation&lt;/div&gt;</find>
       <find>&lt;p</find>
+      <find>box</find>
+      <find>name</find>
+      <find>id=name</find>
+      <find>id=&quot;name&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>static</replace>
@@ -371,22 +352,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithm/itemcf.py" />
-        <option value="$PROJECT_DIR$/Algorithm/usercf.py" />
-        <option value="$PROJECT_DIR$/Algorithm/MF/main.py" />
-        <option value="$PROJECT_DIR$/run/run.bat" />
-        <option value="$PROJECT_DIR$/sql/RecommendationTableCREATE.sql" />
-        <option value="$PROJECT_DIR$/Algorithm/ConnMySQL.py" />
-        <option value="$PROJECT_DIR$/src/test/utils/RecommendationUtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Search.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/MostRatingsImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/POJO/tag.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SearchMovie.java" />
         <option value="$PROJECT_DIR$/src/test/mapper/SearchMovieMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SearchMovieMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/SearchMovieByName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/SearchName.java" />
         <option value="$PROJECT_DIR$/src/main/java/POJO/rating.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Result.java" />
         <option value="$PROJECT_DIR$/src/main/java/POJO/result.java" />
@@ -397,9 +367,7 @@
         <option value="$PROJECT_DIR$/Algorithm/MF/LFM.py" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/RecommendationMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/RecommendController.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/MostRatingsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/SearchId.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/ResultImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/SearchMovieMapper.xml" />
@@ -407,21 +375,34 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/target/classes/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/utils/RecommendationUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/html/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/html/root.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/font-awesome.css" />
         <option value="$PROJECT_DIR$/src/main/java/mapper/MostRatingsImpl.java" />
         <option value="$PROJECT_DIR$/src/test/controller/MostRatingsControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/MostRatingsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/POJO/movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ResultController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/radio.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/box.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/recommend.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/table.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/radio.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/recommend.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ConnMySQL.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/html/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/ref/login.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index1.html" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/MostRatingsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/RecommendController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ResultController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SearchId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SearchName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SimpleAjaxServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/html/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/JavaScript/root.js" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Login.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js" />
       </list>
     </option>
   </component>
@@ -550,6 +531,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -561,6 +543,11 @@
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
               <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -568,6 +555,21 @@
               <item name="recommend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
@@ -607,8 +609,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="ref" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recommend" type="b2602c69:ProjectViewProjectNode" />
@@ -628,7 +638,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,7 +651,7 @@
     <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620151109156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620233263582" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -669,11 +678,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\recommend\src\main\webapp\static\html" />
+      <recent name="D:\Desktop\recommend\src\main\webapp" />
       <recent name="D:\Desktop\recommend\src\main\webapp\static\css" />
+      <recent name="D:\Desktop\recommend\src\main\webapp\static\css\ref" />
       <recent name="D:\Desktop\recommend\src\main\java\service" />
-      <recent name="D:\Desktop\recommend\src\main\resources" />
-      <recent name="D:\Desktop\recommend\src\main\java\Utils" />
-      <recent name="D:\Desktop\recommend\Algorithm\MovieLens-RecSys\result" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="POJO" />
@@ -925,6 +934,8 @@
       <workItem from="1620013687809" duration="4900000" />
       <workItem from="1620025452825" duration="25895000" />
       <workItem from="1620125355500" duration="11634000" />
+      <workItem from="1620190187927" duration="3335000" />
+      <workItem from="1620199353291" duration="12316000" />
     </task>
     <task id="LOCAL-00001" summary="0403-0406 增添了mybatis支持，对整体框架进行了内容填充">
       <created>1617660398022</created>
@@ -969,7 +980,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338455000" />
+    <option name="totallyTimeSpent" value="354106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,9 +992,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <frame x="-7" y="-7" width="1519" height="977" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39834514" visible="true" weight="0.2313484" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.39834514" visible="true" weight="0.23819302" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -995,7 +1007,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289941" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289941" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49965778" weight="0.40828404" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49965778" visible="true" weight="0.40828404" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1014,12 +1026,50 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32991102" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.2422998" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2422998" />
       <window_info anchor="right" id="Database" order="7" weight="0.23545517" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="SciView" order="10" weight="0.23750855" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.39834514" visible="true" weight="0.23819302" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.501182" side_tool="true" weight="0.32717317" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" weight="0.32991102" />
+      <window_info id="Structure" order="7" sideWeight="0.6011834" weight="0.24640657" />
+      <window_info id="CheckStyle" order="8" weight="0.2676249" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289941" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289941" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49965778" visible="true" weight="0.40828404" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4989733" weight="0.37278107" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32781065" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37751478" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010267" side_tool="true" weight="0.33017752" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49965778" weight="0.32662722" />
+      <window_info anchor="bottom" id="SonarLint" order="12" side_tool="true" weight="0.32781065" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289941" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3289941" />
+      <window_info anchor="bottom" auto_hide="true" id="Version Control" order="15" side_tool="true" weight="0.3289941" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24982889" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24982889" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32991102" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.2422998" />
+      <window_info anchor="right" id="Database" order="7" weight="0.23545517" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="SciView" order="10" weight="0.23750855" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1074,51 +1124,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm/itemcf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/RecommendationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RecommendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Recommendation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/ResultDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Recommendation2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/Servlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1140,13 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/apache-tomcat-9.0.34/lib/servlet-api.jar!/javax/servlet/annotation/WebServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1154,23 +1152,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/MostRatingsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/BrowserObjectModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SearchId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="43" column="65" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="65" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recommend.iml">
@@ -1180,16 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2505">
-          <caret line="175" column="124" selection-start-line="175" selection-start-column="65" selection-end-line="175" selection-end-column="124" />
         </state>
       </provider>
     </entry>
@@ -1214,13 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1304,27 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ConnMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="33" column="93" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/MostRatingsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/controller/MostRatingsControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1346,20 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MostRatingsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ResultController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1367,75 +1299,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="109" column="45" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#label#0;n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/box.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/table.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state>
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="125" column="38" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/recommend.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/radio.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/recommend.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/input.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/box.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ConnMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/MostRatingsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="534" lean-forward="true" selection-start-line="534" selection-end-line="534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mapper/MostRatingsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/RecommendController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/MostRatingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ResultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SearchId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SearchName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SimpleAjaxServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/root.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="103" column="88" selection-start-line="103" selection-start-column="88" selection-end-line="103" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#label#0;n#section#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/ref/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2233">
+          <caret line="235" column="5" lean-forward="true" selection-start-line="235" selection-start-column="5" selection-end-line="235" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/JavaScript/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>

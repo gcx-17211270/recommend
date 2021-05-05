@@ -22,7 +22,7 @@ import java.util.List;
  * @author:     32353
  * @version     V1.0.0
 */
-@WebServlet("/recommend_for_user")
+@WebServlet("/static/html/recommend_for_user")
 public class RecommendController extends HttpServlet {
     Logger log = Logger.getLogger(RecommendController.class);
     @Override

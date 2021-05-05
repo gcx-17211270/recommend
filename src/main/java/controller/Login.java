@@ -18,24 +18,33 @@ import java.io.IOException;
  * @author:     32353
  * @version     V1.0.0
 */
-@WebServlet("/static/html/login")
+@WebServlet("/login")
 public class Login extends HttpServlet {
     private static final Logger log = Logger.getLogger(Login.class);
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doPost(req, resp);
-
-        String name = req.getParameter("name");
-        ServletOutputStream os = resp.getOutputStream();
-        os.print("Hello, " + name);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
-        String s = req.getParameter("name");
-        log.info("name = " + s);
-        log.info("DoPost");
-        doGet(req, resp);
+        String name = req.getParameter("name");
+        String pass = req.getParameter("pass");
+        ServletOutputStream os = resp.getOutputStream();
+
+        if (inData(name, pass)) {
+            os.print("ok");
+        }
+        else {
+            log.info("登陆失败");
+            os.print("false");
+        }
+    }
+
+    private boolean inData(String name, String pass) {
+        /**
+         * 仅仅是做一个示范，之后的账户密码肯定不能这么简单处理
+         * */
+        return ("admin".equals(name) && "12345".equals(pass));
     }
 }

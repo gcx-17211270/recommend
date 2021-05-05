@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--响应式布局-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>电影推荐系统</title>
+    <link href="../css/box.css" type="text/css" rel="stylesheet" />
+    <link href="../css/recommend.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/ref/table.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/ref/input.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/ref/radio.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/ref/font-awesome.css" type="text/css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="../JavaScript/xmlHttpObject.js"></script>
+    <script type="text/javascript" src="../JavaScript/index.js"></script>
+    <script>
+
+    window.onload = function() {
+            getMostRatings();
+            getAlgorithmName();
+        }
+    </script>
+</head>
+<body>
+
+    <!--主体-->
+    <div id="main">
+        <div id="content">
+            <div id="title">电影推荐系统——基于协同过滤算法</div>
+            <!--搜索栏-->
+            <div id="search">
+                <form style="text-align:center; font-size:1.7rem; margin:0rem; border:0rem;">
+                    <input type="text" name="SearchText" id="SearchText" placeholder="请输入电影名或电影ID" class="search"
+                           onfocus="value='';" onkeydown="return processKey1(event)" >
+                    <input type="button" name="getSearchFilm" onclick="searchMovie()" value = "搜索一下" class="submit">
+                </form>
+            </div>
+
+            <!--算法结果栏-->
+            <div id="Result">
+
+                <section class="light">
+
+                    <h1>算法名称</h1>
+
+                    <label>
+                        <input type="radio" checked id = "algo1" name="radio" value="userBasedCF" onclick="getAlgorithmName()">
+                        <span class="design"></span>
+                        <span class="text">基于用户的协同过滤推荐算法</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" id = "algo2" name="radio" value="itemBasedCF" onclick="getAlgorithmName()"/>
+                        <span class="design"></span>
+                        <span class="text">基于项目的协同过滤推荐算法</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" id = "algo3" name="radio" value="LFM" onclick="getAlgorithmName()"/>
+                        <span class="design"></span>
+                        <span class="text">基于矩阵分解的协同过滤推荐算法</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" id = "algo4" name="radio" value="LFM" onclick="getAlgorithmName()"/>
+                        <span class="design"></span>
+                        <span class="text">其他待补充</span>
+                    </label>
+                </section>
+                <div id="precision">
+                    <!--<p>算法：<span id="AlgorithmName"></span></p>-->
+                    <ul>
+                        <li>
+                            <div style="flex-basis: 25%">precision</div>
+                            <div style="flex-basis: 25%"><span id="AlgorithmPrecision"></span></div>
+                        </li>
+                        <li>
+                            <div style="flex-basis: 25%">recall</div>
+                            <div style="flex-basis: 25%"><span id="AlgorithmRecall"></span></div>
+                        </li>
+                        <li>
+                            <div style="flex-basis: 25%">coverage</div>
+                            <div style="flex-basis: 25%"><span id="AlgorithmCoverage"></span></div>
+                        </li>
+                        <li>
+                            <div style="flex-basis: 25%">popularity</div>
+                            <div style="flex-basis: 25%"><span id="AlgorithmPopularity"></span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clean"></div>
+            </div>
+
+            <div class="clean"></div>
+            <!--推荐栏-->
+            <div id="recommendDisplay">
+                <div id="Recommend">
+                    <div>
+                        <div id="name" style="width: 50%; float: left; font-size: 1.3rem; padding: 0.6rem 2.3rem;">评分最多的电影</div>
+                        <div id="searchArea" style="width: 50%; float: right; padding-left: 1.5rem;">
+                            <form>
+                                    <input id="userId" type="text"  class="form__field" placeholder="请输入待查询用户ID"
+                                           onfocus="value=''"  onkeydown="return processKey2(event)">
+                                    <input id="searchUser" type="button" onclick="recommend_for_user()" value="推荐结果" class="form__button">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clean"></div>
+                    <div id="Recommend-result"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

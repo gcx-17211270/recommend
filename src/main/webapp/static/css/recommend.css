@@ -21,6 +21,8 @@
     justify-content: space-between;
     margin: 10px 10px;
     text-transform: uppercase;
+    height: 1.2rem;
+    overflow: hidden;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -29,9 +31,13 @@
 }
 #Result {
     border: solid 2px #b7ddf2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     padding: 0 1rem;
     margin-left: 4rem;
     margin-right: 1rem;
+    margin-bottom: 12px;
 }
 #radio{
     width: 50%;

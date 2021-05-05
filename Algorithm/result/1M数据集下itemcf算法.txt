@@ -1,0 +1,46 @@
+python itemcf.py
+Similar movie number = 20
+Recommended movie number = 10
+loading data/ml-1m/ratings.dat(0)
+loading data/ml-1m/ratings.dat(100000)
+loading data/ml-1m/ratings.dat(200000)
+loading data/ml-1m/ratings.dat(300000)
+loading data/ml-1m/ratings.dat(400000)
+loading data/ml-1m/ratings.dat(500000)
+loading data/ml-1m/ratings.dat(600000)
+loading data/ml-1m/ratings.dat(700000)
+loading data/ml-1m/ratings.dat(800000)
+loading data/ml-1m/ratings.dat(900000)
+loading data/ml-1m/ratings.dat(1000000)
+load data/ml-1m/ratings.dat succ
+split training set and test set succ
+train set = 700450
+test set = 299759
+counting movies number and popularity...
+count movies number and popularity succ
+total movie number = 3666
+building co-rated users matrix...
+build co-rated users matrix succ
+calculating movie similarity matrix...
+calculating movie similarity factor(2000000)
+calculating movie similarity factor(4000000)
+calculating movie similarity factor(6000000)
+calculating movie similarity factor(8000000)
+calculating movie similarity factor(10000000)
+calculate movie similarity matrix(similarity factor) succ
+Total similarity factor number = 10174814
+Evaluation start...
+recommended for 0 users
+recommended for 500 users
+recommended for 1000 users
+recommended for 1500 users
+recommended for 2000 users
+recommended for 2500 users
+recommended for 3000 users
+recommended for 3500 users
+recommended for 4000 users
+recommended for 4500 users
+recommended for 5000 users
+recommended for 5500 users
+recommended for 6000 users
+precision=0.3792    recall=0.0764    coverage=0.1729    popularity=7.1730

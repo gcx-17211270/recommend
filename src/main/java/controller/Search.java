@@ -18,7 +18,7 @@ import java.io.OutputStream;
  * @author:     32353
  * @version     V1.0.0
 */
-@WebServlet("/Search")
+@WebServlet("/static/html/Search")
 public class Search extends HttpServlet{
     private static final Logger log = Logger.getLogger(Search.class);
 

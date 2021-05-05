@@ -26,7 +26,7 @@ import java.util.List;
  * @author:     32353
  * @version     V1.0.0
 */
-@WebServlet("/SearchId")
+@WebServlet("/static/html/SearchId")
 public class SearchId extends HttpServlet {
     Logger log = Logger.getLogger(SearchId.class);
 

@@ -8,7 +8,8 @@
 
 .form__field {
     font-family: inherit;
-    width: 100%;
+    width: 70%;
+    float: left;
     border: 0;
     border-bottom: 2px solid #9b9b9b;
     outline: 0;
@@ -22,3 +23,14 @@
      color: transparent;
  }
 
+.form__button {
+    font-family: inherit;
+    width: 30%;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 6px 0;
+    margin: 3px 0;
+    transition: border-color 0.2s;
+}

@@ -17,7 +17,7 @@ import  java.io.IOException;
  * @author:     32353
  * @version     V1.0.0
 */
-@WebServlet("/SimpleAjax")
+@WebServlet("/static/html/SimpleAjax")
 public class SimpleAjaxServlet extends HttpServlet
 {
     private static final long serialVersionUID = -668635463669389981L;
