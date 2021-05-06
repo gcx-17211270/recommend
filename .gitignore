@@ -1,6 +1,6 @@
-
+# 数据文件和训练的模型、产生的推荐结果文件太大不便上传
 Algorithm/data/
-Algorithm/data/result/rec/
+Algorithm/result/rec/
 Algorithm/MF/model/
 
 # Compiled class file
