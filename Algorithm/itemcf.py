@@ -18,18 +18,20 @@ random.seed(0)
 class ItemBasedCF(object):
     ''' TopN recommendation - Item Based Collaborative Filtering '''
 
-    def __init__(self):
-        self.trainset = {}
-        self.testset = {}
-
-        self.n_sim_movie = 20
-        self.n_rec_movie = 10
+    def __init__(self, k_sim_movie=20, n_rec_movie=10, trainset={}, testset={}, dataset_name=''):
+        self.dataset_name = dataset_name
+        self.trainset = trainset
+        self.testset = testset
+        self.k_sim_movie = k_sim_movie
+        self.n_rec_movie = n_rec_movie
 
         self.movie_sim_mat = {}
         self.movie_popular = {}
         self.movie_count = 0
 
-        print('Similar movie number = %d' % self.n_sim_movie, file=sys.stderr)
+        self.model_name = '-{}-k_sim_movie={}'.format(dataset_name, k_sim_movie)
+
+        print('Similar movie number = %d' % self.k_sim_movie, file=sys.stderr)
         print('Recommended movie number = %d' %
               self.n_rec_movie, file=sys.stderr)
 
@@ -44,29 +46,33 @@ class ItemBasedCF(object):
         fp.close()
         print ('load %s succ' % filename, file=sys.stderr)
 
-    def generate_dataset(self, filename, pivot=0.7):
+    def generate_dataset(self, filename='', pivot=0.7):
         ''' load rating data and split it to training set and test set '''
         trainset_len = 0
         testset_len = 0
 
-        for line in self.loadfile(filename):
-            user, movie, rating, _ = line.split('::')
-            if line == 'userId,movieId,rating,timestamp':
-                continue
-            # user, movie, rating, _ = line.split(',')
-            # split the data by pivot
-            if random.random() < pivot:
-                self.trainset.setdefault(user, {})
-                self.trainset[user][movie] = float(rating)
-                trainset_len += 1
-            else:
-                self.testset.setdefault(user, {})
-                self.testset[user][movie] = float(rating)
-                testset_len += 1
+        for id in self.trainset:
+            trainset_len += len(self.trainset[id])
+            testset_len += len(self.testset[id])
 
-        print ('split training set and test set succ', file=sys.stderr)
-        print ('train set = %s' % trainset_len, file=sys.stderr)
-        print ('test set = %s' % testset_len, file=sys.stderr)
+        # for line in self.loadfile(filename):
+        #     user, movie, rating, _ = line.split('::')
+        #     if line == 'userId,movieId,rating,timestamp':
+        #         continue
+        #     # user, movie, rating, _ = line.split(',')
+        #     # split the data by pivot
+        #     if random.random() < pivot:
+        #         self.trainset.setdefault(user, {})
+        #         self.trainset[user][movie] = float(rating)
+        #         trainset_len += 1
+        #     else:
+        #         self.testset.setdefault(user, {})
+        #         self.testset[user][movie] = float(rating)
+        #         testset_len += 1
+
+        print('split training set and test set succ', file=sys.stderr)
+        print('train set = %s' % trainset_len, file=sys.stderr)
+        print('test set = %s' % testset_len, file=sys.stderr)
 
     def calc_movie_sim(self):
         ''' calculate movie similarity matrix '''
@@ -120,7 +126,7 @@ class ItemBasedCF(object):
 
     def recommend(self, user):
         ''' Find K similar movies and recommend N movies. '''
-        K = self.n_sim_movie
+        K = self.k_sim_movie
         N = self.n_rec_movie
         rank = {}
         watched_movies = self.trainset[user]
@@ -171,7 +177,7 @@ class ItemBasedCF(object):
         popularity = popular_sum / (1.0 * rec_count)
 
         oldstdout = sys.stdout
-        file=open('result/itemBasedCFResult-1m.txt','w')
+        file = open('result/result/itemBasedCFResult' + self.model_name + '.txt', 'w')
         sys.stdout=file
         print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
                (precision, recall, coverage, popularity))
@@ -180,18 +186,12 @@ class ItemBasedCF(object):
 
         print ('precision=%.4f    recall=%.4f    coverage=%.4f    popularity=%.4f' %
                (precision, recall, coverage, popularity), file=sys.stderr)
+
+        oldstdout = sys.stdout
+        file = open('result/result/itemBasedCF' + self.model_name + '.txt', 'w')
+        sys.stdout = file
+        print(rec_result)
+        file.close()
+        sys.stdout = oldstdout
+
         return rec_result
-
-
-if __name__ == '__main__':
-    ratingfile = os.path.join('data', 'ml-1m', 'ratings.dat')
-    itemcf = ItemBasedCF()
-    itemcf.generate_dataset(ratingfile)
-    itemcf.calc_movie_sim()
-    rec_result = itemcf.evaluate()
-
-    file = open('result/itemBasedCF-1m.txt', 'w')
-    sys.stdout = file
-    print(rec_result)
-    file.close()
-

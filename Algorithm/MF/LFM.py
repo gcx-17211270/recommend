@@ -11,8 +11,8 @@ import math
 
 from collections import defaultdict
 
-import utils
-from utils import LogTime
+from MF.utils import ModelManager
+from MF.utils import LogTime
 
 
 class LFM:
@@ -130,24 +130,18 @@ class LFM:
             # print(self.Q)
 
     def fit(self, trainset):
-        """
-        Fit the trainset by optimize the P and Q.
-        :param trainset: train dataset
-        :return: None
-        """
         self.trainset = trainset
         self.users_set, self.items_set, self.items_list, self.item_popular, self.items_count = \
             self.init_users_items_set(trainset)
-        model_manager = utils.ModelManager()
+        model_manager = ModelManager()
         try:
             self.P = model_manager.load_model(self.model_name + '-P')
 
             self.Q = model_manager.load_model(self.model_name + '-Q')
-
-            filepath = os.path.join('..\\result', self.model_name)
-            print(filepath)
-            # 这段将P、Q矩阵输出重定向的txt文件�?
+            # 这段将P、Q矩阵输出重定向的txt文件
             ''' 
+            filepath = os.path.join('result', self.model_name)
+            print(filepath)
             oldStdout = sys.stdout
             try:
                 file = open(filepath + '-P-10m.txt', 'w')
@@ -186,7 +180,6 @@ class LFM:
         for item in self.items_set:
             if item in interacted_items.keys():
                 continue
-                print(self.Q[item])
             for k, Qik in enumerate(self.Q[item]):
                 rank[item] += self.P[user][k] * Qik
 
@@ -236,7 +229,7 @@ class LFM:
 
             movie_json[user] = movie_arr
         old_stdout = sys.stdout
-        file = open("../result/LFM-1m-0.05.txt", "w")
+        file = open("result/rec/LFM-" + self.model_name + ".txt", "w")
         sys.stdout = file
         print(movie_json)
         file.close()
@@ -250,9 +243,9 @@ class LFM:
         test_time.finish()
 
         oldstdout = sys.stdout
-        file=open('../result/LFMResult-1m-0.05.txt','w')
-        sys.stdout=file
-        print ('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
+        file = open("result/result/LFMResult-" + self.model_name + ".txt", 'w')
+        sys.stdout = file
+        print('precision=%.4f\nrecall=%.4f\ncoverage=%.4f\npopularity=%.4f' %
                (precision, recall, coverage, popularity))
         file.close()
         sys.stdout = oldstdout

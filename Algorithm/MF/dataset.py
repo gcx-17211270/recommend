@@ -11,16 +11,16 @@ BUILTIN_DATASETS = {
     'ml-1m':
         BuiltinDataset(
             url='http://files.grouplens.org/datasets/movielens/ml-1m.zip',
-            path='../data/ml-1m/ratings.dat',
+            path='data/ml-1m/ratings.dat',
             sep='::',
             reader_params=dict(line_format='user item rating timestamp',
                                rating_scale=(1, 5),
                                sep='::')
         ),
-    'ml-10M':
+    'ml-10m':
         BuiltinDataset(
             url='http://files.grouplens.org/datasets/movielens/ml-10m.zip',
-            path='../data/ml-10M/ratings.dat',
+            path='data/ml-10M/ratings.dat',
             sep='::',
             reader_params=dict(line_format='user item rating timestamp',
                                rating_scale=(1, 5),

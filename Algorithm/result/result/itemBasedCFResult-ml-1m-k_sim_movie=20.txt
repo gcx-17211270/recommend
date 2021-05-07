@@ -1,0 +1,4 @@
+precision=0.3778
+recall=0.0759
+coverage=0.1724
+popularity=7.1586
